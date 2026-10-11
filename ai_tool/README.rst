@@ -21,13 +21,13 @@ Ai Tool
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
 .. |badge3| image:: https://img.shields.io/badge/github-OCA%2Fai-lightgray.png?logo=github
-    :target: https://github.com/OCA/ai/tree/19.0/ai_tool
+    :target: https://github.com/OCA/ai/tree/20.0/ai_tool
     :alt: OCA/ai
 .. |badge4| image:: https://img.shields.io/badge/weblate-Translate%20me-F47D42.png
-    :target: https://translation.odoo-community.org/projects/ai-19-0/ai-19-0-ai_tool
+    :target: https://translation.odoo-community.org/projects/ai-20-0/ai-20-0-ai_tool
     :alt: Translate me on Weblate
 .. |badge5| image:: https://img.shields.io/badge/runboat-Try%20me-875A7B.png
-    :target: https://runboat.odoo-community.org/builds?repo=OCA/ai&target_branch=19.0
+    :target: https://runboat.odoo-community.org/builds?repo=OCA/ai&target_branch=20.0
     :alt: Try me on Runboat
 
 |badge1| |badge2| |badge3| |badge4| |badge5|
@@ -67,6 +67,7 @@ sales on a period, we should do:
 .. code:: python
 
    from odoo.addons.ai_tool.tools import aitool
+
 
    class SaleOrder(models.Model):
        _inherit = "sale.order"
@@ -108,7 +109,7 @@ Bug Tracker
 Bugs are tracked on `GitHub Issues <https://github.com/OCA/ai/issues>`_.
 In case of trouble, please check there if your issue has already been reported.
 If you spotted it first, help us to smash it by providing a detailed and welcomed
-`feedback <https://github.com/OCA/ai/issues/new?body=module:%20ai_tool%0Aversion:%2019.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
+`feedback <https://github.com/OCA/ai/issues/new?body=module:%20ai_tool%0Aversion:%2020.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
 
 Do not contact contributors directly about support or help with technical issues.
 
@@ -123,13 +124,13 @@ Authors
 Contributors
 ------------
 
-- `Dixmit <https://www.dixmit.com>`__
+-  `Dixmit <https://www.dixmit.com>`__
 
-  - Enric Tobella
+   -  Enric Tobella
 
-- `OmniaSolutions <https://www.omniasolutions.website>`__
+-  `OmniaSolutions <https://www.omniasolutions.website>`__
 
-  - Matteo Boscolo <matteo.boscolo@omniasolutions.eu>
+   -  Matteo Boscolo <matteo.boscolo@omniasolutions.eu>
 
 Maintainers
 -----------
@@ -144,6 +145,6 @@ OCA, or the Odoo Community Association, is a nonprofit organization whose
 mission is to support the collaborative development of Odoo features and
 promote its widespread use.
 
-This module is part of the `OCA/ai <https://github.com/OCA/ai/tree/19.0/ai_tool>`_ project on GitHub.
+This module is part of the `OCA/ai <https://github.com/OCA/ai/tree/20.0/ai_tool>`_ project on GitHub.
 
 You are welcome to contribute. To learn how please visit https://odoo-community.org/page/Contribute.
